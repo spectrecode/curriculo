@@ -1,0 +1,175 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background: gray;
+    max-width: 980px;
+    margin: auto;
+}
+
+header{
+    background: black;
+    color: white;
+    border-radius: 15px;
+    padding: 30px;    
+}
+
+h2{
+    margin: 8px auto;
+    font-size: 22px;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.fa-star-half-o:before {
+    font-size: 20px;
+}
+
+.hoja {
+    padding:40px 60px;
+    background: white;
+    /*background: linear-gradient(to right, black 50%, white 50%);*/
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.basico{
+    max-width: 260px;
+    margin-left: auto;
+    font-size: 13px;
+}
+
+.nombre{
+    background: linear-gradient(15.9deg,black 74px, 40px, white 80%, black 6px);
+    font-size: 75px;
+    transform: rotateZ(-16deg);
+    position: absolute;
+    -webkit-background-clip: text;
+    color: transparent;
+    top: 55px;
+}
+
+.dato{
+    float: right;
+    padding-top: 5px;
+}
+
+.basico i{
+    font-size: 20px;
+}
+
+.educacion {
+    width: 50%;
+    display: inline-block;
+}
+
+.cuerpo{
+    padding: 40px 15px;
+}
+
+.me{
+    text-align: justify;
+}
+
+.aboutMe{
+    margin-bottom: 20px;
+}
+
+.conme{
+    /* top: 80px; */
+    width: 600px;
+    font-size: 13px;
+    /* margin-left: auto; */
+    /* position: relative; */
+    /* display: inline-block; */
+    float: right;
+}
+
+.contenEducacion{
+    max-width: 370px;
+}
+
+.centro-ed, .carrera-ed, .fecha {
+    width: 124px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    font-size: 13px;
+}
+
+.carrera-ed{
+    margin: auto;
+}
+
+.fecha{
+    margin-left: auto;
+}
+
+.par-hab{
+    margin: 10px auto;
+}
+
+.titl-hab, .descr-hab{
+    display: inline-block;
+}
+
+.titl-hab{
+    width: 130px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    line-height: 2;
+    font-size: 13px;
+}
+
+.descr-hab{
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 13px;   
+}
+
+.conten-hab{
+    display: inline-block;
+    width: 50%;
+    float: right;    
+}
+
+.portafolio{
+    margin: 20px auto;
+}
+
+.conten-port{
+    max-width: 500px;
+    margin: auto;    
+}
+
+.titulo-link, .link{
+    display: inline-block;
+    width: 240px;
+}
+
+.duo-port{
+    margin:5px;
+}
+
+.detalles p{
+    text-indent: 100px;
+}
+
+.titulo-det{
+    display: inline-block;
+}
+
+.detalle{
+    margin:10px auto;
+}
+
+.detalles i{
+    text-indent: 20px;
+}
